@@ -1,0 +1,87 @@
+@media (max-width:320px) {
+  #calc {
+    width: 100% !important;
+  }
+}
+
+.btn {
+  -webkit-border-radius: 25px !important;
+  -moz-border-radius: 25px !important;
+  border-radius: 25px !important;
+}
+
+body {
+  font-family: "Press Start 2P";
+  background: darkgreen;
+}
+
+#calc {
+  width: 340px;
+  /*margin-top: 30px;*/
+  border-radius: 10px;
+  border-width: 10px;
+  border-style: outset;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#digits {
+  font-size: 24px;
+  text-align: right;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sign {
+  font-size: 24px;
+  text-align: left;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#input {
+  font-size: 8px;
+  height: 16px;
+}
+
+#title {
+  font-size: 8px;
+  text-align: center;
+}
+
+/*button style ideas from
+https://bootstrapbay.com/blog/bootstrap-button-styles/
+*/
+.btn-primary.raised {
+	box-shadow: 0 3px 0 0 #a6a6a6;
+}
+
+.btn-primary.raised:active, .btn-primary.raised.active {
+	box-shadow: none;
+	margin-bottom: -3px;
+	margin-top: 3px;
+}
+
+.btn-default.raised {
+	box-shadow: 0 3px 0 0 #a6a6a6;
+}
+
+.btn-default.raised:active, .btn-default.raised.active {
+	box-shadow: none;
+	margin-bottom: -3px;
+	margin-top: 3px;
+}
+
+.btn-warning.raised {
+	box-shadow: 0 3px 0 0 #a6a6a6;
+}
+
+.btn-warning.raised:active, .btn-warning.raised.active {
+	box-shadow: none;
+	margin-bottom: -3px;
+	margin-top: 3px;
+}
